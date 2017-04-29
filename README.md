@@ -1,0 +1,1 @@
+A simple Youtube page mock up done with HTML/CSS as part of The Odin Project. The emphasis is on embedding media in an html file.
