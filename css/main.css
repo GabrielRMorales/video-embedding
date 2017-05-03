@@ -12,7 +12,8 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: .8em;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.4;
 }
 
@@ -40,11 +41,10 @@ html {
 
 hr {
     display: block;
+    width: 95%;
     height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    border:0;
+    border-top: 1px solid #ccc;  
 }
 
 /*
@@ -126,21 +126,42 @@ main {
     background-color: gray;
 }
 iframe {
-    margin-top: 7%;
+    margin-top: 5%;
     height: 450px;
     width: 70%;
 }
 #info {
-    box-shadow: 0 5px black;
+    /*box-shadow: 0 5px black;*/
     width: 70%;
 }
 section, article {
+    padding: 0 7px;
     background-color: white;
 }
+section {
+    padding-bottom: 5px;
+}
+section img{
+    padding-right: 5px;
+
+    float:left;
+}
+h2 {
+    padding-top: 5px;
+    margin-bottom: 7px;
+}
+h3 {
+    padding-top: 5px;
+}
+#center {
+    padding: 0 40% 4px 40%;
+    margin-top: 2px;
+}
 aside {
-    margin-top: 7%;
+    padding: 0 5px;
+    margin-top: 5%;
     height: 90%;
-    width: 29.5%;
+    width: 28.5%;
     display: inline;
     float:right;
     background-color: white;
