@@ -134,6 +134,15 @@ iframe {
     /*box-shadow: 0 5px black;*/
     width: 70%;
 }
+
+.preview, .up-next img {
+    float: left;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+.up-next h3 {
+    margin-top: 0;
+}
 section, article {
     padding: 0 7px;
     background-color: white;
@@ -162,6 +171,7 @@ aside {
     margin-top: 5%;
     height: 90%;
     width: 28.5%;
+    min-width: 345px;
     display: inline;
     float:right;
     background-color: white;
