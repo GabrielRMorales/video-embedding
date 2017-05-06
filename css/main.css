@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: #efefef;
+    background-color: #F0F0F0;
    
 }
 nav {
@@ -123,7 +123,6 @@ main {
     margin: 0 auto;
     padding: 10px;
     width: 90%;
-    background-color: gray;
 }
 iframe {
     margin-top: 5%;
@@ -131,8 +130,8 @@ iframe {
     width: 70%;
 }
 #info {
-    /*box-shadow: 0 5px black;*/
     width: 70%;
+
 }
 
 .preview, .up-next img {
@@ -146,6 +145,7 @@ iframe {
 section, article {
     padding: 0 7px;
     background-color: white;
+    box-shadow: .2px .2px black;
 }
 section {
     padding-bottom: 5px;
@@ -154,6 +154,17 @@ section img{
     padding-right: 5px;
 
     float:left;
+}
+section input {
+    width: 700px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.comment {
+    width: 800px;
+    height: 60px;
+    margin-bottom: 15px;
 }
 h2 {
     padding-top: 5px;
@@ -176,9 +187,6 @@ aside {
     float:right;
     background-color: white;
 }
-
-
-
 
 
 
